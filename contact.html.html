@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body style="background-color:rgb(242, 191, 200); color:palevioletred">
+    <header>
+        <div class="subscribe">
+            <form>
+                <input type="email" placeholder="enter email">
+                <button type="submit">subscribe to my blog</button>
+            </form>
+        </div>
+    </header>
+
+    <h1 class="title "style= "text-align:center; font-weight:bolder; font-size:85px">book blog</h1>
+    
+
+
+    
+
+
+    <div class="menu" onClick = "openArticles()" >all articles</div>
+    <div class="menu" onClick = "openReviews()">reviews</div>
+    <div class="menu" onClick = "openContact()">contact</div>
+
+    <br>
+    <br>
+    <br>
+
+    <h1 style="text-align:center; font-weight:bolder; font-size:70px">contact</h1>
+
+    
+   
+
+
+<div class="container">
+    <form>
+        <label>first name</label>
+        <input type="text" placeholder="your first name...">
+
+        <label>last name</label>
+        <input type="text" placeholder="your last name...">
+
+        <label>country</label>
+        <select>
+            <option>romania</option>
+            <option>spain</option>
+            <option>usa</option>
+            <option>italy</option>
+            <option>sweden</option>
+            <option>denmark</option>
+        </select>
+
+        <label>subject</label>
+        <textarea placeholder="write something..." style="height:100px"></textarea>
+
+        <input type="submit" value="submit">
+    </form>
+    <br>
+    <br>
+    <br>
+    <br>
+
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
